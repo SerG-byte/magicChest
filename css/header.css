@@ -1,0 +1,51 @@
+
+.header{
+    border: solid 1px blue;
+    max-height: 150px;
+}
+.content{
+    padding: 0px 30px;
+}
+.headerUp{
+    border: solid 1px red;
+    padding: 0px 30px;
+    height: 130px;
+}
+.headerDown{
+    height: 40px;
+    border: solid 1px yellow;
+    text-align: center;
+}
+.itemHeaderUp{
+    border: solid 1px green;
+    display: inline-block;
+    width: 33%;
+    font-family: 'comic sans ms';
+    
+}
+.mainIcone{
+    font-size: 30px;
+    text-align: center;
+}
+.singIn{
+    text-align: right;
+}
+.rowButton{
+    border: solid 1px aqua;
+
+}
+.headerButton{
+    height: 40px;
+    margin: 0px 5px;
+    padding: 0px 20px;
+    background-color: #4CAF50;
+    color: white;
+    font-size: 16px;
+    border-radius: 12px;
+    transition: all 0.5s;
+
+}
+.headerButton:hover{
+    transform: translateY(-10px);
+    box-shadow: 5px 10px 5px rgba(0, 0, 0, 0.3);
+}
