@@ -1,34 +1,24 @@
 
 .header{
     border: solid 1px blue;
-    max-height: 150px;
+    min-height: 150px;
 }
 .content{
     padding: 0px 30px;
 }
 .headerUp{
+    display: flex;
+    justify-content: space-between;
     border: solid 1px red;
-    padding: 0px 30px;
-    height: 130px;
+    padding-top: 10px;
+    min-height: 130px;
 }
 .headerDown{
-    height: 40px;
     border: solid 1px yellow;
     text-align: center;
 }
 .itemHeaderUp{
     border: solid 1px green;
-    display: inline-block;
-    width: 33%;
-    font-family: 'comic sans ms';
-    
-}
-.mainIcone{
-    font-size: 30px;
-    text-align: center;
-}
-.singIn{
-    text-align: right;
 }
 .rowButton{
     border: solid 1px aqua;
@@ -48,4 +38,114 @@
 .headerButton:hover{
     transform: translateY(-10px);
     box-shadow: 5px 10px 5px rgba(0, 0, 0, 0.3);
+}
+
+.header_burger{
+    display: none;
+}
+.burger_menu{
+    display: none;
+}
+@media (max-width:767px) {
+    body.lock{
+        overflow: hidden;
+    }
+    .header_burger{
+        position: relative;
+        border: solid 1px yellow;
+        display: block;
+        width: 30px;
+        height: 20px;
+        z-index: 1;
+        transition: all 2s ease-in-out;
+    }
+    .header_burger:before,
+    .header_burger:after{
+        position: absolute;
+        content: '';
+        background-color: black;
+        width: 100%;
+        height: 2px;
+        left: 0;
+        transition: all 0.3s ease 0s;
+    }
+    .header_burger:before{
+        top: 0;
+    }
+    .header_burger:after{
+        bottom: 0;
+    }
+    .header_burger.active{
+        position: fixed;
+        right: 30px;
+        top: 50px;
+    }
+    .header_burger.active:before{
+        transform: rotate(45deg);
+        top: 9px;
+    }
+    .header_burger.active:after{
+        transform: rotate(-45deg);
+        bottom: 9px;
+    }
+    .header_burger.active span{
+        transform: scale(0);
+    }
+
+
+
+    .header_burger span{
+        position: absolute;
+        background-color: black;
+        width: 100%;
+        height: 2px;
+        left: 0;
+        top: 9px;
+        transition: all 0.3s ease 0s;
+    }
+    .singIN{
+        display: none;
+    }
+    .headerDown{
+        display: none;
+    }
+    .header{
+        min-height: 50px;
+    }
+    .headerUp{
+        flex-flow: wrap;
+        justify-content: none;
+        min-height: 50px;
+    }
+
+    .itemBetween{
+        order: 2;
+    }
+    .itemMain{
+        padding-bottom: 20px;
+        order: 1;
+        width: 100%;
+        text-align: center;
+    }
+    .burger_menu{
+        display: block;
+        position: fixed;
+        top: 0;
+        left: 100%;
+        width: 100%;
+        height: 100%;
+        background-color: rgb(114, 111, 111);
+        padding: 70px 10px 20px 10px;
+        transition: all 0.3s ease 0s;
+    }
+    .burger_menu.active{
+        left: 0;
+    }
+    .header_list{
+        display: block;
+    }
+    .header_list li{
+        margin: 0px 0px 20px 0px;
+        font-size: 20px;
+    }
 }
