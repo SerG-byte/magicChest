@@ -5,42 +5,47 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/index.css">
     
     <title>Magic-Chest</title>
 </head>
 <body>
     <?php require "header.php "?>
-    <div>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam doloribus fuga quis nesciunt pariatur dolorem! At ipsa ab recusandae qui porro similique adipisci nihil sed. Aliquid nulla recusandae maxime veniam?
+
+    <div class="slider-conteiner">
+        <div class="slideNews fade">
+            <a href=""><img src="./news/oneNews.jpg" class="banner"></a>
+            <div class="textNews">Caption One</div>
+        </div>
+        <div class="slideNews fade">
+            <a href=""><img src="./news/twoNews.jpg" style="width: 100%;"></a>
+            <div class="textNews">Caption Two</div>
+        </div>
+        <div class="slideNews fade">
+            <a href=""><img src="./news/threeNews.jpg" style="width: 100%;"></a>
+            <div class="textNews">Caption Three</div>
+        </div>
+
+        <a class="prev" onclick="plusSlide(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlide(1)">&#10095;</a>
     </div>
-    <div>
-        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Optio, minus.
+    <br>
+    <div style="border: solid 1px green;">
+        <div style="text-align: center;">
+            <span class="dot" onclick="currentSlide(1)"></span>
+            <span class="dot" onclick="currentSlide(2)"></span>
+            <span class="dot" onclick="currentSlide(3)"></span>
+        </div>
     </div>
-    <div>
-        Lorem ipsum dolor sit amet.
-    </div>
-    <div>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Mollitia, atque quasi possimus corrupti nulla reprehenderit officiis minima quos beatae. Debitis laborum quod dolorem nam optio, ipsa perferendis impedit beatae tempore doloremque ex error, saepe mollitia accusantium ut ea non voluptates, unde nihil minus inventore esse rerum ullam? Consequatur, eaque? Odio, quia totam tempore officia suscipit rerum consectetur aspernatur ex maiores fugiat facilis itaque deserunt deleniti molestiae assumenda nisi, mollitia vel nobis accusantium facere perspiciatis aliquam ipsa, laudantium vero! Quod, natus! Fugit aspernatur qui voluptatum nostrum debitis, hic velit, similique blanditiis minus nemo ad quisquam fuga ducimus esse et pariatur. Reiciendis.</div>
-    <div>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam doloribus fuga quis nesciunt pariatur dolorem! At ipsa ab recusandae qui porro similique adipisci nihil sed. Aliquid nulla recusandae maxime veniam?
-    </div>
-    <div>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam doloribus fuga quis nesciunt pariatur dolorem! At ipsa ab recusandae qui porro similique adipisci nihil sed. Aliquid nulla recusandae maxime veniam?
-    </div>
-    <div>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam doloribus fuga quis nesciunt pariatur dolorem! At ipsa ab recusandae qui porro similique adipisci nihil sed. Aliquid nulla recusandae maxime veniam?
-    </div>
-    <div>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam doloribus fuga quis nesciunt pariatur dolorem! At ipsa ab recusandae qui porro similique adipisci nihil sed. Aliquid nulla recusandae maxime veniam?
-    </div>
-    <div>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam doloribus fuga quis nesciunt pariatur dolorem! At ipsa ab recusandae qui porro similique adipisci nihil sed. Aliquid nulla recusandae maxime veniam?
-    </div>
+    
     <?php require "footer.php "?>
 
     <script
-  src="https://code.jquery.com/jquery-3.6.0.min.js"
-  integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
-  crossorigin="anonymous"></script>
-  <script src="js/burgerScript.js"></script>
+        src="https://code.jquery.com/jquery-3.6.0.min.js"
+        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+        crossorigin="anonymous"></script>
+    <script src="js/burgerScript.js"></script>
+    <script src="js/sliderNews.js"></script>
+
 </body>
 </html>
