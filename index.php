@@ -4,7 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
+
     <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/header_popup.css">
+
     <link rel="stylesheet" href="css/index.css">
     
     <title>Magic-Chest</title>
@@ -46,6 +49,6 @@
         crossorigin="anonymous"></script>
     <script src="js/burgerScript.js"></script>
     <script src="js/sliderNews.js"></script>
-
+    <script src="js/popup.js"></script>
 </body>
 </html>
