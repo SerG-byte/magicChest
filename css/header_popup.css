@@ -18,7 +18,7 @@
     visibility: visible;
 }
 .popup.open .popup_content{
-    transform: perspective(600px) translate(0px, 0%) rotate(0deg);
+    transform: scale(1);
 }
 .popup_body {
     min-height: 100%;
@@ -34,7 +34,7 @@
     max-width: 350px;
     padding: 30px;
     transition: all 0.8s ease 0s;
-    transform: perspective(600px) translate(0px, -100%) rotate(45deg);
+    transform: scale(0.2);
 }
 /*.popup_close {
     position: absolute;
