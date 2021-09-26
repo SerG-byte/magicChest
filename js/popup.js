@@ -6,8 +6,13 @@ let unlock = true;
 
 const timeout = 500;
 
+$(document).ready(function () {
+    $('#phone').mask("(999) 999-99-99");
+});
+
+
+
 popupLink.addEventListener("mousedown",function(e){
-    console.log("hello");
     const curentPopup = document.getElementById('popup');
     popupOpen(curentPopup);
     e.preventDefault();
