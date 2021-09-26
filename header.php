@@ -55,37 +55,28 @@
             <div class="popup_content">
                 
                 <div class="popup_title">
-                    <h1>Авторизация</h1>
+                    <h1>Войти или создать профиль</h1>
                     <div>
                         <input class="popup_close close-popup" type="button" value="&#10008;">
                     </div>
                 </div>
                 <div class="auth_form">
                     <form action="" method="post">
-                        <h1>Войти через логин или email</h1>    
+                        <label for="phone">Контактный номер:</label>    
                         <div class="dws-input">
-                            <input type="text" name="login" id="login" placeholder="Логин или email" autocomplete="off">
-                        </div>
-                        <a href="">Забыли пароль?</a>
-                        <div class="dws-input">
-                            <input type="password" name="password" id="password" placeholder="Пароль">
-                        </div>
-                        <div class="sing_and_reg">
-                            <div>
-                                <input type="submit" value="Войти" class="submit_button">
+                            <select id="codeOfTheCountry">
+                                <option value="7">+7</option>
+                            </select>
+                            <input type="text" name="phone" id="phone" placeholder="(800) 800-80-80" autocomplete="off" minlength="10" required>
                             </div>
-                            <div class="reg">
-                                <a href="">Регистрация</a>
-                            </div>
-                            
-                            
+                            <p><label><input type="checkbox" class="checkbox_modal" value="1"><span class="checkbox_span">Чужой компьютер</span></label></p>
+                            <div class="sing_and_reg">
+                                <input type="submit" value="Получить код" class="submit_button">
                         </div>
-                        
                     </form>
                 </div>
                     
             </div>
         </div>
     </div>
-    
 </header>
