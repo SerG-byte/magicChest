@@ -6,9 +6,7 @@ let unlock = true;
 
 const timeout = 500;
 
-$(document).ready(function () {
-    $('#phone').mask("(999) 999-99-99");
-});
+
 
 
 
