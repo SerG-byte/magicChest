@@ -55,23 +55,29 @@
             <div class="popup_content">
                 
                 <div class="popup_title">
-                    <h1>Войти или создать профиль</h1>
+                    <h1>Авторизация</h1>
                     <div>
                         <input class="popup_close close-popup" type="button" value="&#10008;">
                     </div>
                 </div>
                 <div class="auth_form">
                     <form action="" method="post">
-                        <label for="phone">Контактный номер:</label>    
+                        <h1>Войти через email</h1>    
                         <div class="dws-input">
-                            <select id="codeOfTheCountry">
-                                <option value="7">+7</option>
-                            </select>
-                            <input type="text" name="phone" id="phone" placeholder="(800) 800-80-80" autocomplete="off" minlength="10" required>
-                            </div>
+                            <input type="text" name="login" id="login" placeholder="Email" autocomplete="off" required>
+                        </div>
+                        <a href="">Забыли пароль?</a>
+                        <div class="dws-input">
+                            <input type="password" name="password" id="password" placeholder="Пароль" required>
+                        </div>
                             <p><label><input type="checkbox" class="checkbox_modal" value="1"><span class="checkbox_span">Чужой компьютер</span></label></p>
-                            <div class="sing_and_reg">
-                                <input type="submit" value="Получить код" class="submit_button">
+                        <div class="sing_and_reg">
+                            <div>
+                                <input type="submit" value="Войти" class="submit_button">
+                            </div>
+                            <div class="reg">
+                                <a href="">Регистрация</a>
+                            </div>
                         </div>
                     </form>
                 </div>

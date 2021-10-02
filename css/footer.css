@@ -1,0 +1,67 @@
+.footer{
+    min-height: 75vh;
+    background-color: rgb(86, 86, 179);
+    padding: 30px 40px 0px 40px;
+}
+.footer_content{
+    border: solid 1px yellow;
+    position: flex;
+    
+}
+.footer ul{
+    border: solid 1px red;
+    color: white;
+    display: inline-block;
+    vertical-align:top;
+    margin-right: 50px;
+    padding: 20px;
+}
+.title_block{
+    font-weight: bold;
+    font-size: 18px;
+}
+.footer li{
+    font-family: 'Roboto';
+    margin-bottom: 10px;
+}
+.footer a{
+    color: rgb(180, 180, 180);
+    font-weight: lighter;
+    font-size: 12px;
+}
+.footer a:hover{
+    color: white;
+}
+.Company_info{
+    border: solid 1px green;
+    display: inline-block;
+    vertical-align:top;
+    color: white;
+    font-family: 'Roboto';
+    padding: 20px;
+    margin-right: 100px;
+}
+.Company_info > div{
+    margin-bottom: 15px;
+
+}
+
+.info_name{
+    font-size: 30px;
+}
+.info_logo{
+    font-size: 10px;
+    color: rgb(180, 180, 180);
+}
+.info_street{
+    font-size: 15px;
+}
+.info_phone{
+    font-size: 26px;
+    font-weight: bold;
+    
+}
+.info_email{
+    font-weight: bold;
+    font-size: 20px;
+}
