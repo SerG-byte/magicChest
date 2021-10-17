@@ -76,7 +76,7 @@
                                 <input type="submit" value="Войти" class="submit_button">
                             </div>
                             <div class="reg">
-                                <a href="">Регистрация</a>
+                                <a href="registration.php">Регистрация</a>
                             </div>
                         </div>
                     </form>
