@@ -13,7 +13,7 @@
     color: white;
     display: inline-block;
     vertical-align:top;
-    margin-right: 50px;
+    margin: 0px 50px;
     padding: 20px;
 }
 .title_block{
@@ -33,17 +33,10 @@
     color: white;
 }
 .Company_info{
-    border: solid 1px green;
-    display: inline-block;
-    vertical-align:top;
-    color: white;
     font-family: 'Roboto';
-    padding: 20px;
-    margin-right: 100px;
 }
 .Company_info > div{
     margin-bottom: 15px;
-
 }
 
 .info_name{

@@ -1,0 +1,80 @@
+body{
+    background-color: gainsboro;
+
+}
+
+.reg__window {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 0px;
+}
+.content {
+
+    box-shadow:0 0 15px 4px rgba(0,0,0,0.08);
+    border-radius: 5px;
+    position: relative;
+    background-color: white;
+
+}
+.content__head {
+    font-size: 24px;
+    color: white;
+    background-color: rgb(46, 46, 211);
+    border-radius: 5px 5px 0px 0px;
+    text-align: center;
+    padding: 10px;
+}
+.content__body{
+    padding: 20px;
+}
+.form {
+    /*background-color: green;*/
+    padding: 0px 40px;
+    
+}
+.reg_text{
+    padding-top: 10px;
+}
+.reg_text a{
+    font-size: 18px;
+    color: black;
+    text-align: center;
+    display: block;
+}
+.reg_text a:hover{
+    color: rgb(46, 46, 211);
+    text-decoration: underline;
+}
+.reg_text, input{
+
+    margin: 5px;
+}
+input[type="text"],input[type="password"]{
+    display: block;
+    width: 200px;
+    height: 25px;
+    border-radius: 10px;
+    padding: 5px;
+    box-shadow:0 0 15px 4px rgba(0,0,0,0.1);
+    border: solid 1px rgb(204, 204, 204);
+}
+input[type="text"]:focus,input[type="password"]:focus{
+    box-shadow:0 0 15px 4px rgba(0,0,0,0.3);
+}
+input[type="submit"]{
+    display: block;
+    width: 200px;
+    height: 25px;
+    border-radius: 10px;
+    padding: 5px;
+    background-color: rgb(46, 46, 211);
+    margin-top: 20px;
+    color: white;
+}
+input[type="submit"]:hover{
+    background-color: rgb(29, 29, 136);
+    box-shadow:0 0 15px 4px rgba(0,0,0,0.2);
+    cursor: pointer;
+}
+

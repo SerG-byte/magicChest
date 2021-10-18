@@ -19,25 +19,27 @@
         <li class="title_block">Мы в соцсетях</li>
         <li><a href="">Instagram</a></li>
     </ul>
-    <div class="Company_info">
-        <div>
-            <div class="info_name">
-                Magic Chest
+    <ul>
+        <div class="Company_info">
+            <div>
+                <div class="info_name">
+                    Magic Chest
+                </div>
+                <div class="info_logo">
+                    Лозунг
+                </div>
             </div>
-            <div class="info_logo">
-                Лозунг
+            <div class="info_street">
+                улица
+            </div>
+            <div class="info_phone">
+                +7 999 235-66-33
+            </div>
+            <div class="info_email">
+                Mail@mail.ru
             </div>
         </div>
-        <div class="info_street">
-             улица
-        </div>
-        <div class="info_phone">
-             +7 999 235-66-33
-        </div>
-        <div class="info_email">
-             Mail@mail.ru
-        </div>
-    </div>
+    </ul>
     </div>
 
 </footer>
