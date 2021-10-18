@@ -12,13 +12,14 @@
     position: relative;
 }
 .banner-catolog{
-    display: flex;
+    /* display: flex;
     justify-content: center;
-    align-items: center;
-    
+    align-items: center;  */
 }
 .banner-slide{
-    display: block;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
     overflow: hidden;
     border-radius: 25px;
     box-shadow: 0 0 10px 1px green;
@@ -28,7 +29,7 @@
     height: 100%;
     width: auto;
     transition: .5s ease;
-}
+} 
 .banner-slide img:hover{
     -webkit-filter: brightness(85%);
     filter: brightness(85%);
@@ -58,9 +59,19 @@
     opacity: 1;
     color: green;
 }
-@media (max-width: 767px){
+
+/* swiper pagination */
+.swiper-pagination{
+    
+}
+.swiper-pagination-bullet{
+    display: inline-block;
+    list-style-type: disc;
+}
+
+@media (max-width: 1022px){
     .banner-slide img{
-        height: auto;
+        width: 100%;
     }
     .swiper-button{
         display: none;
