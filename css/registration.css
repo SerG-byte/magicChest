@@ -9,14 +9,15 @@ body{
     align-items: center;
     padding: 30px 0px;
 }
-.content {
+
+.reg__window .content__registration {
 
     box-shadow:0 0 15px 4px rgba(0,0,0,0.08);
     border-radius: 5px;
     position: relative;
     background-color: white;
-
 }
+
 .content__head {
     font-size: 24px;
     color: white;
@@ -24,14 +25,13 @@ body{
     border-radius: 5px 5px 0px 0px;
     text-align: center;
     padding: 10px;
+    
 }
 .content__body{
     padding: 20px;
 }
-.form {
-    /*background-color: green;*/
-    padding: 0px 40px;
-    
+.reg__window .reg__form {
+    padding: 0px 40px;    
 }
 .reg_text{
     padding-top: 10px;
@@ -46,11 +46,11 @@ body{
     color: rgb(46, 46, 211);
     text-decoration: underline;
 }
-.reg_text, input{
+.reg_text, .reg__window input{
 
     margin: 5px;
 }
-input[type="text"],input[type="password"]{
+.reg__window input[type="text"],.reg__window input[type="password"],.reg__window input[type="email"]{
     display: block;
     width: 200px;
     height: 25px;
@@ -59,10 +59,10 @@ input[type="text"],input[type="password"]{
     box-shadow:0 0 15px 4px rgba(0,0,0,0.1);
     border: solid 1px rgb(204, 204, 204);
 }
-input[type="text"]:focus,input[type="password"]:focus{
+.reg__window input[type="text"]:focus,.reg__window input[type="password"]:focus,.reg__window input[type="email"]:focus{
     box-shadow:0 0 15px 4px rgba(0,0,0,0.3);
 }
-input[type="submit"]{
+.reg__window input[type="submit"]{
     display: block;
     width: 200px;
     height: 25px;
@@ -72,7 +72,7 @@ input[type="submit"]{
     margin-top: 20px;
     color: white;
 }
-input[type="submit"]:hover{
+.reg__window input[type="submit"]:hover{
     background-color: rgb(29, 29, 136);
     box-shadow:0 0 15px 4px rgba(0,0,0,0.2);
     cursor: pointer;

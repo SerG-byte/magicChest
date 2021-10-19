@@ -28,12 +28,11 @@
             </div>
         </div>
         <div class="headerDown">
-            <button type="submit" class="headerButton">Text</button>
-            <button type="submit" class="headerButton">Text</button>
-            <button type="submit" class="headerButton">Text</button>
-            <button type="submit" class="headerButton">Text</button>
-            <button type="submit" class="headerButton">Text</button>
-            <button type="submit" class="headerButton">Text</button>
+            <a href="/index.php" class="headerButton">Главная</a>
+            <a href="/katalog.php" class="headerButton">Каталог</a>
+            <a href="" class="headerButton">Акции</a>
+            <a href="" class="headerButton">Доставка</a>
+            <a href="" class="headerButton">О нас</a>
         </div>
     </div>
     <div class="burger_menu">
