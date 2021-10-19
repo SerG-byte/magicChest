@@ -58,22 +58,20 @@ body{
     margin-bottom: 10px;
 }
 .katalog__sort > a{
-    text-decoration: inherit;
     cursor: pointer;
 }
 .katalog__goods{
     border: solid 1px blue;
-    display: flexbox;
-    justify-content: space-between;
+    font-size: 0px;
 }
 
 
 
 .product{
     min-height: 100px;
-    min-width: 23%;
-    float: left;
-    margin: 1%;
+    min-width: 25%;
+    display: inline-block;
+    
     border-radius: 20px;
     padding: 10px 10px;
 }
@@ -82,7 +80,8 @@ body{
 }
 .product > div{
     padding: 5px;
-    /*border: solid 1px yellowgreen;*/
+    font-size: 14px;
+    
 }
 .product__wallpaper {    
     
@@ -99,7 +98,9 @@ body{
 .product__buttons {
 
 }
+
 .product_btn{
+    letter-spacing : inherit;
     padding: 5px 15px;
     background-color: #4CAF50;
     color: white;
@@ -110,7 +111,24 @@ body{
     float: right;
 }
 
+.katalog__pages{
+    width: 100%;
+    text-align: center;
+}
+@media (max-width:1250px){
+    .product{
+        min-width: 33%;
+    }
 
+
+}
+@media (max-width:955px){
+    .product{
+        min-width: 50%;
+    }
+
+
+}
 @media (max-width:767px){
     .katalog__navigation {
         display: none;
@@ -123,13 +141,7 @@ body{
 
 
     .product{
-        min-height: 100px;
-        min-width: 48%;
-        border: solid 1px yellowgreen;
-        float: left;
-        margin: 1%;
-        border-radius: 20px;
-        padding: 10px 10px;
+        min-width: 100%;
     }
 
 

@@ -71,7 +71,7 @@
                         <div class="product">
                             
                             <div class="product__wallpaper">
-                                <img src="img/pruduct/ProductBackground.jpg" width="100%" height="200px">
+                                <img src="img/pruduct/ProductBackground.jpg" width="80%" height="200px">
                             </div>
                             <div class="product__sell">
                                 4000руб
@@ -93,7 +93,16 @@
 
 
                     </div>
+                    <div class="katalog__pages">
+                        <a href="">1</a>
+                        <a href="">2</a>
+                        <a href="">3</a>
+                        <a href="">4</a>
+                        ...
+                        <a href="">-></a>
+                    </div>
                 </div>
+                
             </div>
         </div>
     </div>
