@@ -6,7 +6,7 @@
     position: relative;
     max-width: 1440px;
     margin: auto;
-    border: solid 1px red;
+    /* border: solid 1px red; */
 }
 .swiper-container{
     position: relative;
@@ -17,9 +17,9 @@
     align-items: center;  */
 }
 .banner-slide{
-    display: flex;
+    /* display: flex;
     justify-content: center;
-    align-items: center; 
+    align-items: center;  */
     overflow: hidden;
     border-radius: 25px;
     box-shadow: 0 0 10px 1px green;
@@ -62,14 +62,23 @@
 
 /* swiper pagination */
 .swiper-pagination{
-    
+    text-align: center;
 }
 .swiper-pagination-bullet{
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    border-radius: 50%;
+    background-color: rgb(81, 218, 81);
     display: inline-block;
-    list-style-type: disc;
+    transform: background-color .6s ease;
+}
+.active, .swiper-pagination-bullet:hover{
+    background-color: rgb(25, 105, 25);
 }
 
-@media (max-width: 1022px){
+@media (max-width: 767px){
     .banner-slide img{
         width: 100%;
     }
