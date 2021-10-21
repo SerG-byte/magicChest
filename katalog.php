@@ -8,8 +8,9 @@
     <link rel="stylesheet" href="css/header.css">
     <link rel="stylesheet" href="css/header_popup.css">
     <link rel="stylesheet" href="css/footer.css">
-
+    
     <link rel="stylesheet" href="css/katalog.css">
+    <link rel="stylesheet" href="css/katalogSelect.css">
     <title>Каталог</title>
 </head>
 <body>
@@ -24,26 +25,21 @@
                     <input type="text" name="" id="search" placeholder="Поиск">
                     </div>
                     <div class="katalog__categories">
-                        <p>categories</p>
-                        <p>categories</p>
-                        <p>categories</p>
-                        <p>categories</p>
-                        <p>categories</p>
-                        <p>categories</p>
+                        <?php require "katalogCategories.php"?>
                     </div>
                 </div>
                 <div class="katalog__main">
                     <div class="katalog__sort">
                         Сортировать по:
-                        <a>Популярности</a>
-                        <a>Рейтингу</a>
-                        <a>Цене</a>
-                        <a>Скидке</a>
+                        <input type="button" value="Популярности">
+                        <input type="button" value="Рейтингу">
+                        <input type="button" value="Цене">
+                        <input type="button" value="Скидке">
                     </div>
                     <div class="katalog__goods">
                         <?php 
                         
-                        for ($i=0; $i < 100; $i++) { 
+                        for ($i=0; $i < 10; $i++) { 
                             echo"
                             <div class=\"product\">
                             
@@ -94,12 +90,12 @@
 
                     </div>
                     <div class="katalog__pages">
-                        <a href="">1</a>
-                        <a href="">2</a>
-                        <a href="">3</a>
-                        <a href="">4</a>
+                        <input class="btn__page" type="button" value="1">
+                        <input class="btn__page" type="button" value="2">
+                        <input class="btn__page" type="button" value="3">
                         ...
-                        <a href="">-></a>
+                        <input class="btn__page" type="button" value="4">
+                        <input class="btn__page" type="button" value=">">
                     </div>
                 </div>
                 
@@ -117,5 +113,6 @@
         crossorigin="anonymous"></script>
     <script src="js/burgerScript.js"></script>
     <script src="js/popup.js"></script>
+    <script src="js/katalogSelect.js"></script>
 </body>
 </html>

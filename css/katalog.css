@@ -2,8 +2,7 @@ body{
     background-color: rgb(86, 86, 179);
 }
 .main__katalog__container{
-    /*position: relative;
-    top: -20px;*/
+
 }
 .katalog_container{
     background-color: white;
@@ -100,7 +99,6 @@ body{
 }
 
 .product_btn{
-    letter-spacing : inherit;
     padding: 5px 15px;
     background-color: #4CAF50;
     color: white;
@@ -115,6 +113,14 @@ body{
     width: 100%;
     text-align: center;
 }
+
+.btn__page{
+    padding: 10px 15px;
+    background-color: #4CAF50;
+    color: white;
+    border-radius: 12px;
+}
+
 @media (max-width:1250px){
     .product{
         min-width: 33%;
