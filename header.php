@@ -36,15 +36,13 @@
         </div>
     </div>
     <div class="burger_menu">
-    <div class="burger_menu_exit"><span></span></div>
+    <div class="burger_menu_exit">&#10006;</div>
         <ul class="header_list">
-            <li>Главная</li>
-            <li><a href="./index.php">dasda</a></li>
-            <li><a href="./index.php">dasda</a></li>
-            <li><a href="./index.php">dasda</a></li>
-            <li><a href="./index.php">dasda</a></li>
-            <li><a href="./index.php">dasda</a></li>
-            <li><a href="./index.php">dasda</a></li>
+            <li><a href="./index.php">Главная</a></li>
+            <li><a href="./katalog.php">Каталог</a></li>
+            <li><a href="./index.php">Акции</a></li>
+            <li><a href="./index.php">Доставка</a></li>
+            <li><a href="./index.php">О нас</a></li>
         </ul>
     </div>
     

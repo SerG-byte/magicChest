@@ -10,7 +10,12 @@ body{
     border-radius: 30px;
     padding: 10px 30px;
 }
-
+.katalog__sort_select{
+    display: none;
+}
+.katalog__sort_line{
+    display: block;
+}
 
 .katalog__title {
     font-family: Arial, Helvetica, sans-serif;
@@ -33,11 +38,17 @@ body{
 #search{
     display: block;
     width: 100%;
-    height: 25px;
+    height: 30px;
     border-radius: 10px;
-    padding: 5px;
+    padding: 10px;
     box-shadow:0 0 15px 4px rgba(0,0,0,0.1);
     border: solid 1px rgb(204, 204, 204);
+}
+#search::placeholder{
+    background-image: url(/img/icone/img_search.png);
+    background-position-x: right;
+    background-size: 15px;
+    background-repeat: no-repeat;
 }
 .katalog__categories{
     border: solid 1px violet;
@@ -55,6 +66,16 @@ body{
     padding: 5px 0px;
     border: solid 1px red;
     margin-bottom: 10px;
+    
+}
+.katalog__sort input[type="button"]{
+    background-color: white;
+    border-bottom: 1px dashed black;
+    margin: 0px 10px;
+    font-size: 16px;
+}
+.katalog__sort span{
+    color: gray;
 }
 .katalog__sort > a{
     cursor: pointer;
@@ -121,6 +142,11 @@ body{
     border-radius: 12px;
 }
 
+.katalog__sort__burger__menu{
+    display: none;
+}
+
+
 @media (max-width:1250px){
     .product{
         min-width: 33%;
@@ -142,13 +168,73 @@ body{
     .katalog__main{
         width: 100%;
     }
-
-
-
-
+    .katalog__sort_select{
+        display: block;
+    }
+    .katalog__sort_line{
+        display: none;
+    }
     .product{
         min-width: 100%;
     }
 
+    /*---------------------------------------------*/
+    .katalog__sort__burger{
+        background-image: url(/img/icone/burgher_sort.png);
+        background-size:contain;
+        background-repeat: no-repeat;
+        display: block;
+        width: 30px;
+        height: 20px;
+        float: right;
+    }
+    .katalog__sort__burger__menu{
+        z-index: 99;
+        display: block;
+        position: fixed;
+        top: 0;
+        left: 100%;
+        width: 100%;
+        height: 100%;
+        background-color: white;
+        padding: 70px 10px 20px 10px;
+        transition: all 0.3s ease 0s;
+    }
+    .katalog__sort__burger__menu.active{
+        left: 0;
+    }
+    .katalog__sort__burger__menu_exit{
+        position: fixed;
+        left: 190%;
+        transition: all 0.3s ease 0s;
+    }
+    .katalog__sort__burger__menu_exit.active{
+        top: 20px;
+        left: 95%;
+        position: fixed;
+        width: 30px;
+        height: 30px;
+        z-index: 100;
+        font-size: 25px;
+        color: gray;
+    }
+
+    .katalog__categories__burgher{
+        overflow: scroll;
+        max-height: 90vh;
+    }
+    .name__katalog__categories__burgher{
+        position: fixed;
+        left: 190%;
+        transition: all 0.3s ease 0s;
+    }
+    .name__katalog__categories__burgher.active{
+        top: 20px;
+        left: 2%;
+        position: fixed;
+        z-index: 100;
+        font-size: 20px;
+        font-weight: bold;
+    }
 
 }

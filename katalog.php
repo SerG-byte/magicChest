@@ -15,7 +15,7 @@
 </head>
 <body>
     <?php require "header.php "?>
-
+    
     <div class="main__katalog__container">
         <div class="katalog_container">
             <div class="katalog__title">Каталог</div>
@@ -30,11 +30,23 @@
                 </div>
                 <div class="katalog__main">
                     <div class="katalog__sort">
-                        Сортировать по:
-                        <input type="button" value="Популярности">
-                        <input type="button" value="Рейтингу">
-                        <input type="button" value="Цене">
-                        <input type="button" value="Скидке">
+                        <div class="katalog__sort_line">
+                            <span>Сортировать по:</span>                        
+                            <input type="button" value="Популярности">
+                            <input type="button" value="Рейтингу">
+                            <input type="button" value="Цене">
+                            <input type="button" value="Скидке">
+                        </div>
+                        <div class="katalog__sort_select">
+                            <select name="" id="">
+                                <option value="">По популярности</option>
+                                <option value="">По рейтингу</option>
+                                <option value="">По цене</option>
+                                <option value="">По скидке</option>
+                            </select> 
+                            <div class="katalog__sort__burger"></div>
+                        </div>
+                        
                     </div>
                     <div class="katalog__goods">
                         <?php 
@@ -102,7 +114,14 @@
             </div>
         </div>
     </div>
-
+    
+    <div class="katalog__sort__burger__menu">
+        <div class="katalog__sort__burger__menu_exit">&#10006;</div>
+        <span class="name__katalog__categories__burgher">Фильтры</span>
+        <div class="katalog__categories__burgher">            
+            <?php require "katalogCategories.php"?>
+        </div>
+    </div>
 
     <?php require "footer.php "?>
     

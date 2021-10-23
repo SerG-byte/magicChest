@@ -4,3 +4,14 @@ $(document).ready(function(){
         $('body').toggleClass('lock');
     });
 });
+
+
+$(document).ready(function(){
+    $('.katalog__sort__burger,.katalog__sort__burger__menu_exit').click(function(event){
+        $('.katalog__sort__burger__menu,.katalog__sort__burger__menu_exit,.name__katalog__categories__burgher').toggleClass('active');
+        $('body').toggleClass('lock');
+    });
+});
+
+
+

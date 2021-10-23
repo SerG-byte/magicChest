@@ -3,7 +3,8 @@
     -webkit-transition: all 1s;
     -moz-transition: all 1s;
     -o-transition: all 1s;
-    transition: all 1s;    
+    transition: all 1s;
+    visibility: visible;
 }
 
 .categories__select__header {
@@ -62,7 +63,8 @@
 
 .categories__select__body {
     padding: 0px 0px;
-    overflow: hidden; 
+    overflow: hidden;
+    visibility: hidden;
     max-height: 0px;
     -webkit-transition: all 0.5s;
     -moz-transition: all 0.5s;

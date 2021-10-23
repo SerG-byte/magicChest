@@ -74,7 +74,7 @@
     display: inline-block;
     transform: background-color .6s ease;
 }
-.active, .swiper-pagination-bullet:hover{
+.banner-content .active, .swiper-pagination-bullet:hover{
     background-color: rgb(25, 105, 25);
 }
 
