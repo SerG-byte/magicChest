@@ -6,7 +6,6 @@
     position: relative;
     max-width: 1440px;
     margin: auto;
-    /* border: solid 1px red; */
 }
 .swiper-container{
     position: relative;
@@ -22,7 +21,6 @@
     align-items: center;  */
     overflow: hidden;
     border-radius: 25px;
-    box-shadow: 0 0 10px 1px green;
 }
 .banner-slide img{
     cursor: pointer;
@@ -62,16 +60,16 @@
 
 /* swiper pagination */
 .swiper-pagination{
-    text-align: center;
+    display: flex;
+    justify-content: center;
 }
 .swiper-pagination-bullet{
     cursor: pointer;
-    height: 15px;
-    width: 15px;
-    margin: 0 2px;
-    border-radius: 50%;
-    background-color: rgb(81, 218, 81);
-    display: inline-block;
+    height: 5px;
+    width: 50px;
+    margin: 0 5px;
+    border-radius: 2.5px;
+    background-color: rgb(209, 209, 209);
     transform: background-color .6s ease;
 }
 .banner-content .active, .swiper-pagination-bullet:hover{
@@ -79,10 +77,19 @@
 }
 
 @media (max-width: 767px){
+    #main_container{
+        padding: 14px;
+    }
     .banner-slide img{
         width: 100%;
     }
     .swiper-button{
         display: none;
+    }
+    .swiper-pagination-bullet{
+        height: 4px;
+        width: 35px;
+        margin: 0 4px;
+        border-radius: 2px;
     }
 }
