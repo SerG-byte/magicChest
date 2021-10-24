@@ -1,0 +1,11 @@
+.quick-links-content{
+    display: flex;
+    justify-content: center;
+}
+.links-conteiner{
+    border: solid 1px red;
+
+    
+    max-width: 400px;
+    
+}

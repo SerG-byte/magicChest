@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="css/footer.css">
 
     <link rel="stylesheet" href="css/banner.css">
+    <link rel="stylesheet" href="css/quick_links.css">
     
     <title>Magic-Chest</title>
 </head>
@@ -74,6 +75,25 @@
                 <li class="swiper-pagination-bullet" onclick="currentSlide(4)"></li>
                 <li class="swiper-pagination-bullet" onclick="currentSlide(5)"></li>
             </ul>
+        </div>
+
+        <!-- quick links -->
+        <div class="quick-links-content">
+            <div class="links-conteiner">
+                <h3>Альбомы</h3>
+                <p>Альбомы на липучках - веселые развивашки</p>
+                <button>Заказать</button>
+            </div>
+            <div class="links-conteiner">
+                <h3>Прописи</h3>
+                <p>Пописи "Пиши, стирай" - первые шаги в письме</p>
+                <button>Заказать</button>
+            </div>
+            <div class="links-conteiner">
+                <h3>Карточки</h3>
+                <p>Наборы карточек - учись повторяя</p>
+                <button>Заказать</button>
+            </div>
         </div>
 
     </div>

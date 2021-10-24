@@ -73,7 +73,7 @@
     transform: background-color .6s ease;
 }
 .banner-content .active, .swiper-pagination-bullet:hover{
-    background-color: rgb(25, 105, 25);
+    background-color: rgb(51, 209, 51);
 }
 
 @media (max-width: 767px){
