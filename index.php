@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="ru">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -11,15 +12,16 @@
 
     <link rel="stylesheet" href="css/banner.css">
     <link rel="stylesheet" href="css/quick_links.css">
-    
+
     <title>Magic-Chest</title>
 </head>
+
 <body>
-    <?php require "header.php "?>
+    <?php require "header.php " ?>
 
     <div id="main_container">
 
-        <!-- banner's block --> 
+        <!-- banner's block -->
         <div class="banner-content">
             <div class="swiper-container">
                 <div class="banner-catolog">
@@ -97,16 +99,14 @@
         </div>
 
     </div>
-    <?php require "footer.php "?>
-    
-    <script
-        src="https://code.jquery.com/jquery-3.6.0.min.js"
-        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
-        crossorigin="anonymous"></script>
+    <?php require "footer.php " ?>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
     <!--<script src="js/plagins/jquery.maskedinput.min.js"></script>-->
     <script src="js/burgerScript.js"></script>
-    <script src="js/sliderNews.js"></script>
+    <script src="js/bners.js"></script>
     <script src="js/popup.js"></script>
-    
+
 </body>
+
 </html>
