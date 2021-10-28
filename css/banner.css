@@ -10,15 +10,11 @@
 .swiper-container{
     position: relative;
 }
-.banner-catolog{
-    /* display: flex;
+.banner-catolog picture{
+    display: flex;
     justify-content: center;
-    align-items: center;  */
 }
 .banner-slide{
-    /* display: flex;
-    justify-content: center;
-    align-items: center;  */
     overflow: hidden;
     border-radius: 25px;
 }

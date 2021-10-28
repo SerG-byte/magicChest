@@ -23,48 +23,46 @@
 
         <!-- banner's block -->
         <div class="banner-content">
-            <div class="swiper-container">
-                <div class="banner-catolog">
-                    <div class="banner-slide" style="display: none;">
-                        <a href="https://www.google.ru/">
-                            <picture>
-                                <source media="(max-width: 767px)" srcset="img/bners/mob_iphone.jpg">
-                                <img src="img/bners/big_iphone.jpg" alt="iphone sales">
-                            </picture>
-                        </a>
-                    </div>
-                    <div class="banner-slide" style="display: none;">
-                        <a href="https://www.google.ru/">
-                            <picture>
-                                <source media="(max-width: 767px)" srcset="img\bners\mob_autumn.jpg">
-                                <img src="img\bners\big_autumn.jpg" alt="autumn sales">
-                            </picture>
-                        </a>
-                    </div>
-                    <div class="banner-slide" style="display: none;">
-                        <a href="https://www.google.ru/">
-                            <picture>
-                                <source media="(max-width: 767px)" srcset="img\bners\mob_food.jpg">
-                                <img src="img\bners\big_food.jpg" alt="food sales">
-                            </picture>
-                        </a>
-                    </div>
-                    <div class="banner-slide" style="display: none;">
-                        <a href="https://www.google.ru/">
-                            <picture>
-                                <source media="(max-width: 767px)" srcset="img\bners\mob_oral.jpg">
-                                <img src="img\bners\big_oral.jpg" alt="oral sales">
-                            </picture>
-                        </a>
-                    </div>
-                    <div class="banner-slide" style="display: none;">
-                        <a href="https://www.google.ru/">
-                            <picture>
-                                <source media="(max-width: 767px)" srcset="img\bners\mob_philips.jpg">
-                                <img src="img\bners\big_philips.jpg" alt="philips sales">
-                            </picture>
-                        </a>
-                    </div>
+            <div class="banner-catolog">
+                <div class="banner-slide" style="display: none;">
+                    <a href="https://www.google.ru/">
+                        <picture>
+                            <source media="(max-width: 767px)" srcset="img/bners/mob_iphone.jpg">
+                            <img src="img/bners/big_iphone.jpg" alt="iphone sales">
+                        </picture>
+                    </a>
+                </div>
+                <div class="banner-slide" style="display: none;">
+                    <a href="https://www.google.ru/">
+                        <picture>
+                            <source media="(max-width: 767px)" srcset="img\bners\mob_autumn.jpg">
+                            <img src="img\bners\big_autumn.jpg" alt="autumn sales">
+                        </picture>
+                    </a>
+                </div>
+                <div class="banner-slide" style="display: none;">
+                    <a href="https://www.google.ru/">
+                        <picture>
+                            <source media="(max-width: 767px)" srcset="img\bners\mob_food.jpg">
+                            <img src="img\bners\big_food.jpg" alt="food sales">
+                        </picture>
+                    </a>
+                </div>
+                <div class="banner-slide" style="display: none;">
+                    <a href="https://www.google.ru/">
+                        <picture>
+                            <source media="(max-width: 767px)" srcset="img\bners\mob_oral.jpg">
+                            <img src="img\bners\big_oral.jpg" alt="oral sales">
+                        </picture>
+                    </a>
+                </div>
+                <div class="banner-slide" style="display: none;">
+                    <a href="https://www.google.ru/">
+                        <picture>
+                            <source media="(max-width: 767px)" srcset="img\bners\mob_philips.jpg">
+                            <img src="img\bners\big_philips.jpg" alt="philips sales">
+                        </picture>
+                    </a>
                 </div>
                 <button class="swiper-button prev" onclick="plusSlide(-1)">&#10094;</button>
                 <button class="swiper-button next" onclick="plusSlide(1)">&#10095;</button>
@@ -78,6 +76,7 @@
                 <li class="swiper-pagination-bullet" onclick="currentSlide(5)"></li>
             </ul>
         </div>
+        <br>
 
         <!-- quick links -->
         <div class="quick-links-content">
