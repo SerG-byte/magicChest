@@ -2,10 +2,68 @@
     display: flex;
     justify-content: center;
 }
-.links-conteiner{
-    border: solid 1px red;
+.link-card-conteiner{
+    border-radius: 10px;
+    width: 300px;
+    min-height: 300px;
+    margin: 0px 10px;
+    position: relative;
+    align-items: center;
+}
+.l-card{ background-color: rgb(14, 154, 255);}
+.r-card{ background-color: rgb(255, 114, 35);}
+.c-card{ background-color: rgb(198, 31, 161);}
 
-    
-    max-width: 400px;
-    
+.link-front, .link-back{
+    width: 100%;
+    padding: 50px 20px 20px 20px;
+    overflow: hidden;
+    backface-visibility: hidden;
+    transition: transform .3s linear;
+}
+.link-front{
+    position: absolute;
+}
+.link-front{
+    transform: perspective(600px) rotateY(0deg);
+}
+.link-back{
+    transform: perspective(600px) rotateY(180deg);
+}
+.link-card-conteiner:hover > .link-front{
+    transform: perspective(600px) rotateY(-180deg);
+}
+.link-card-conteiner:hover > .link-back{
+    transform: perspective(600px) rotateY(0deg);
+}
+
+
+.quick-links-content h3,p{
+    text-align: center;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.quick-links-content h3{
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+.quick-links-content p{
+    font-size: 18px;
+    font-weight: lighter;
+}
+.quick-links-content input[type="button"]{
+    display: block;
+    margin: 30px auto;
+    padding: 10px 20px;
+    background-color: white;
+    color: rgb(72, 50, 144);
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 12px; 
+    transition: all 0.4s ease;
+}
+.quick-links-content input[type="button"]:hover{
+    color: white;
+    background-color: rgb(72, 50, 144);
 }

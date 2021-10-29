@@ -80,24 +80,45 @@
 
         <!-- quick links -->
         <div class="quick-links-content">
-            <div class="links-conteiner">
-                <h3>Альбомы</h3>
-                <p>Альбомы на липучках - веселые развивашки</p>
-                <button>Заказать</button>
+            <div class="link-card-conteiner l-card">
+                <div class="link-front">
+                    <h3>Альбомы</h3>
+                    <p>Альбомы на липучках - веселые развивашки</p>
+                </div>
+                <div class="link-back">
+                    <h3>Альбомы</h3>
+                    <p>Альбомы на липучках - веселые развивашки</p>
+                    <input type="button" value="Заказать">
+                </div>     
             </div>
-            <div class="links-conteiner">
-                <h3>Прописи</h3>
-                <p>Пописи "Пиши, стирай" - первые шаги в письме</p>
-                <button>Заказать</button>
+
+            <div class="link-card-conteiner c-card">
+                <div class="link-front">
+                    <h3>Прописи</h3>
+                    <p>Пописи "Пиши, стирай" - первые шаги в письме</p>
+                </div>
+                <div class="link-back">
+                    <h3>Прописи</h3>
+                    <p>Пописи "Пиши, стирай" - первые шаги в письме</p>
+                    <input type="button" value="Заказать">
+                </div>     
             </div>
-            <div class="links-conteiner">
-                <h3>Карточки</h3>
-                <p>Наборы карточек - учись повторяя</p>
-                <button>Заказать</button>
+
+            <div class="link-card-conteiner r-card">
+                <div class="link-front">
+                    <h3>Карточки</h3>
+                    <p>Наборы карточек - учись повторяя</p>
+                </div>
+                <div class="link-back">
+                    <h3>Карточки</h3>
+                    <p>Наборы карточек - учись повторяя</p>
+                    <input type="button" value="Заказать">
+                </div>     
             </div>
         </div>
-
     </div>
+
+    
     <?php require "footer.php " ?>
 
     <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
