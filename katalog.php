@@ -116,10 +116,10 @@
     </div>
     
     <div class="katalog__sort__burger__menu">
-        <div class="katalog__sort__burger__menu_exit">&#10006;</div>
+        <div class="katalog__sort__burger__menu_exit"></div>
         <span class="name__katalog__categories__burgher">Фильтры</span>
         <div class="katalog__categories__burgher">            
-            <?php require "katalogCategories.php"?>
+        <?php require "katalogCategories.php"?>
         </div>
     </div>
 

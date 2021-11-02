@@ -146,27 +146,31 @@
 }
 
 #login{
-    background-image: url(../img/icone/singIN.png);
-    background-position: 10px 10px;
-    background-size: 5%;
+    background-image: url(../img/icone/account_circle_black.png);
+    image-rendering: -webkit-optimize-contrast;
+    background-position: 3px 5px;
+    background-size: 10%;
     background-repeat: no-repeat;
 }
 #login:hover{
-    background-image: url(../img/icone/singIN_hover.png);
-    background-position: 10px 10px;
-    background-size: 5%;
+    background-image: url(../img/icone/account_circle_blue.png);
+    image-rendering: -webkit-optimize-contrast;
+    background-position: 3px 5px;
+    background-size: 10%;
     background-repeat: no-repeat;
 }
 #password{
-    background-image: url(../img/icone/lock.png);
-    background-position: 10px 10px;
-    background-size: 5%;
+    background-image: url(../img/icone/lock_black.png);
+    image-rendering: -webkit-optimize-contrast;
+    background-position: 3px 5px;
+    background-size: 10%;
     background-repeat: no-repeat;
 }
 #password:hover{
-    background-image: url(../img/icone/lock_hover.png);
-    background-position: 10px 10px;
-    background-size: 5%;
+    background-image: url(../img/icone/lock_blue.png);
+    image-rendering: -webkit-optimize-contrast;
+    background-position: 3px 5px;
+    background-size: 10%;
     background-repeat: no-repeat;
 }
 .reg{

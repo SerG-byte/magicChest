@@ -4,7 +4,7 @@
             <div class="itemHeaderUp itemBetween">
                 <div style="float: left;">
                     <form action="" target="_blank">
-                        <input type="button" value="telegram" class="linkButton">
+                        <input type="button" value="" class="linkButton linkButtonTelegram">
                     </form>
                 </div>
                 <div style="float: left;">
@@ -12,7 +12,7 @@
                         <input type="submit" value="" class="linkButton linkButtonInstagram">
                     </form>
                 </div>
-                <div class="header_burger"><span></span></div>
+                <div class="header_burger"></div>
             </div>
             <div class="itemHeaderUp itemMain">
                 <div>
@@ -36,7 +36,7 @@
         </div>
     </div>
     <div class="burger_menu">
-    <div class="burger_menu_exit">&#10006;</div>
+    <div class="burger_menu_exit"></div>
         <ul class="header_list">
             <li><a href="./index.php">Главная</a></li>
             <li><a href="./katalog.php">Каталог</a></li>
